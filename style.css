@@ -400,7 +400,18 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .col-lg-4 img {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.08);
+  transform: translateY(-6px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: block;
+}
 
+.about .col-lg-4 img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12), 0 24px 48px rgba(0,0,0,0.08);
+}
 /* ============================================
    FACTS/STATS SECTION
    ============================================ */
